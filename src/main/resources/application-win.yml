@@ -1,0 +1,13 @@
+server:
+  port: 7008
+
+logging:
+  config: classpath:properties/logback-spring.xml
+  #config: classpath:properties/logback-spring.xml
+
+charset:
+  encoding: utf-8
+
+spring:
+  quartz:
+    job-store-type: jdbc
